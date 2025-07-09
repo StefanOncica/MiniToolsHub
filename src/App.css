@@ -121,14 +121,22 @@ input[type="text"] {
 .task-buttons {
   display: flex;
   gap: 0.5rem;
-  align-items: center;
+  align-items: upper center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0,
+  0, 0.1);
+  background-color: #fcfcfc;
 }
 
 
 .todo-list li {
   margin: 0.75rem 0;
   padding: 1rem 1.25rem;
-  background: #fff;
+  background: #aca18f;
   color: #000;
   border-radius: 8px;
   display: flex;
